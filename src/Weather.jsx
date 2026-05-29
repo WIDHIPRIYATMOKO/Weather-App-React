@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const apiKey = "e946fdade2f54e889e935916262905";
-const url = `http://api.weatherapi.com/v1/current.json?key=e946fdade2f54e889e935916262905&q=Yogyakarta`;
+const url = `https://api.weatherapi.com/v1/current.json?key=e946fdade2f54e889e935916262905&q=Yogyakarta`;
 
 export default function Weather() {
 
