@@ -68,6 +68,11 @@ export default function Weather() {
         <div className="text-sm tracking-wide text-slate-300">
           Kondisi: <span className="font-semibold text-emerald-400 text-base block mt-1">{weather.current.condition.text}</span>
         </div>
+
+        {/* Localtime */}
+        <div>
+          <span className="flex justify-center items-center mt-3">{weather.location.localtime}</span>
+        </div>
         
       </div>
     )}
